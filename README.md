@@ -41,18 +41,21 @@ The manual diagnosis of DR by ophthalmologists is time-consuming, requires consi
 Recent advancements in Artificial Intelligence (AI) and the increase of computational resources and capabilities have created the opportunity to develop Deep Learning (DL) applications for accurate DR detection and classification.
 
 **Process Flow Diagram**
-![image](https://user-images.githubusercontent.com/79081714/165320818-c81a1862-f824-40a6-908f-805f43a9acdf.png)
+![image](https://user-images.githubusercontent.com/79081714/165322354-9314797e-7a69-4a26-b586-e787b27618d9.png)
+
 
 **Architecture**
 RESNET includes the skip connection feature which enables the training of 152 layers without vanishing gradient issues. The architecture of the RESNET model is given below:
 
-![image](https://user-images.githubusercontent.com/79081714/165321102-0a13a0b0-55b2-490b-a40e-9ad763d28f43.png
+![image](https://user-images.githubusercontent.com/79081714/165322473-888f6d46-df8d-41e8-89e8-12a79d5aac8b.png)
+
 
 
 **Output-**
 ![image](https://user-images.githubusercontent.com/79081714/165318254-f3172e79-fb44-4909-b1ad-9833f2b15607.png)
 ![image](https://user-images.githubusercontent.com/79081714/165318350-3ece040a-1cd0-4a74-9324-67f6f0d2059e.png)
 ![image](https://user-images.githubusercontent.com/79081714/165319226-8b705aa7-de16-441e-800e-136d01c6c869.png)
+
 **Conclusion and Future Work**
 In this project we are able to classify the input retinal images into different stages of DR using the pre-trend RESNET model. The GUI we develop will be helpful for both doctors and also the common people.
 Our future work is to convert the GUI into a mobile application. We are also trying to improve the accuracy.
