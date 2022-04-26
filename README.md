@@ -1,6 +1,7 @@
 # CLASSIFICATION-OF-RETINAL-DISEASES-USING-RESNET-MODEL
 
 ** Introduction**
+
 Diabetic retinopathy (DR) is a common diabetes complication that occurs when the retina’s blood vessels are damaged due to high blood sugar levels, resulting in swelling and leaking of the vessels. In an advanced DR stage, the vision may be lost completely. The percentage of blindness worldwide resulting from DR is 2.6%. Therefore, diabetes patients need regular screening of the retina to detect DR early, manage its progression and avoid the risk of blindness.
 
 Diabetic Retinopathy is a disease with an increasing prevalence and the main cause of blindness among working-age population. The risk of severe vision loss can be significantly reduced by timely diagnosis and treatment. Systematic screening for DR has been identified as a cost-effective way to save health services resources. Automatic retinal image analysis is emerging as an important screening tool for early DR detection, which can reduce the workload associated to manual grading as well as save diagnosis costs and time. Many research efforts in the last years have been devoted to developing automated tools to help in the detection and evaluation of DR lesions. We are interested in automating this prediction using deep learning models. So we want to develop a computer aided diagnosis tool to detect the presence of diabetic retinopathy and classify whether it is a normal DR or an abnormal DR based on the features extracted.
@@ -41,10 +42,12 @@ The manual diagnosis of DR by ophthalmologists is time-consuming, requires consi
 Recent advancements in Artificial Intelligence (AI) and the increase of computational resources and capabilities have created the opportunity to develop Deep Learning (DL) applications for accurate DR detection and classification.
 
 **Process Flow Diagram**
+
 ![image](https://user-images.githubusercontent.com/79081714/165322354-9314797e-7a69-4a26-b586-e787b27618d9.png)
 
 
 **Architecture**
+
 RESNET includes the skip connection feature which enables the training of 152 layers without vanishing gradient issues. The architecture of the RESNET model is given below:
 
 ![image](https://user-images.githubusercontent.com/79081714/165322473-888f6d46-df8d-41e8-89e8-12a79d5aac8b.png)
@@ -52,10 +55,12 @@ RESNET includes the skip connection feature which enables the training of 152 la
 
 
 **Output-**
+
 ![image](https://user-images.githubusercontent.com/79081714/165318254-f3172e79-fb44-4909-b1ad-9833f2b15607.png)
 ![image](https://user-images.githubusercontent.com/79081714/165318350-3ece040a-1cd0-4a74-9324-67f6f0d2059e.png)
 ![image](https://user-images.githubusercontent.com/79081714/165319226-8b705aa7-de16-441e-800e-136d01c6c869.png)
 
 **Conclusion and Future Work**
+
 In this project we are able to classify the input retinal images into different stages of DR using the pre-trend RESNET model. The GUI we develop will be helpful for both doctors and also the common people.
 Our future work is to convert the GUI into a mobile application. We are also trying to improve the accuracy.
