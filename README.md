@@ -1,7 +1,6 @@
 # CLASSIFICATION-OF-RETINAL-DISEASES-USING-RESNET-MODEL
 
-** Introduction**
-
+**Introduction**
 Diabetic retinopathy (DR) is a common diabetes complication that occurs when the retina’s blood vessels are damaged due to high blood sugar levels, resulting in swelling and leaking of the vessels. In an advanced DR stage, the vision may be lost completely. The percentage of blindness worldwide resulting from DR is 2.6%. Therefore, diabetes patients need regular screening of the retina to detect DR early, manage its progression and avoid the risk of blindness.
 
 Diabetic Retinopathy is a disease with an increasing prevalence and the main cause of blindness among working-age population. The risk of severe vision loss can be significantly reduced by timely diagnosis and treatment. Systematic screening for DR has been identified as a cost-effective way to save health services resources. Automatic retinal image analysis is emerging as an important screening tool for early DR detection, which can reduce the workload associated to manual grading as well as save diagnosis costs and time. Many research efforts in the last years have been devoted to developing automated tools to help in the detection and evaluation of DR lesions. We are interested in automating this prediction using deep learning models. So we want to develop a computer aided diagnosis tool to detect the presence of diabetic retinopathy and classify whether it is a normal DR or an abnormal DR based on the features extracted.
